@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "fd6e0ef0-44f9-44e2-a63f-c256195bd3b5",
+		"name": "testcollction-devops",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33185248",
+		"_collection_link": "https://mohammad-javad-0858.postman.co/workspace/BehPardakht~b2c84238-3875-4e40-a2ba-b5a91a51f2f5/collection/33185248-fd6e0ef0-44f9-44e2-a63f-c256195bd3b5?action=share&source=collection_link&creator=33185248"
+	},
+	"item": [
+		{
+			"name": "https://audience.yektanet.com/api/v1/scripts/preview/validate/?app_id=YVAzGLpd",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "origin",
+						"value": "https://artment.ir"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://artment.ir/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-fetch-storage-access",
+						"value": "active"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"value": "analytics_global_token=01JVRQ72P3CR1W34FA7ZEP57VH; gearbox_ad_token=01JVRQ72P3CR1W34FA7ZEP57VH; _yngt=01JVRQ72P3CR1W34FA7ZEP57VH"
+					}
+				],
+				"url": {
+					"raw": "https://audience.yektanet.com/api/v1/scripts/preview/validate/?app_id=YVAzGLpd",
+					"protocol": "https",
+					"host": [
+						"audience",
+						"yektanet",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"scripts",
+						"preview",
+						"validate",
+						""
+					],
+					"query": [
+						{
+							"key": "app_id",
+							"value": "YVAzGLpd"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
