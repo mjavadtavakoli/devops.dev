@@ -20,6 +20,4 @@ jobs:
     - name: Run Go tests
       run: go test ./...
     - name: Run Postman Collection
-      run: |
-        npm install -g newman
-        newman run /Users/mohamadjavad/Desktop/testcollction-devops.postman_collection.json
+      run: newman run /Users/mohamadjavad/Desktop/testcollction-devops.postman_collection.json
